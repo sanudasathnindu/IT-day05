@@ -169,8 +169,22 @@
 //     console.log(numbers[i]);
 // }
 
-let numbers = [1, "saman", true, 4, 5];
+// let numbers = [1, "saman", true, 4, 5];
 
-for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
+// for (let i = 0; i < numbers.length; i++) {
+//     console.log(numbers[i]);
+// }
+
+
+//--------------------------------------------------
+
+//Objects
+
+let customer = {
+    name: "Saman",
+    age: 18,
+    isAfterAl: false,
+    salary: 7500.50,
 }
+
+console.log(customer.name);
