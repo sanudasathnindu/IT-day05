@@ -53,15 +53,31 @@
 
 // && | || | !
 
-if (true && true) {
-    console.log("true");
-}else {
-    console.log("false");
-}
+// if (true && true) {
+//     console.log("true");
+// }else {
+//     console.log("false");
+// }
 
 
-if(!false && !false) {
-    console.log("true");
+// if(!false && !false) {
+//     console.log("true");
+// }else {
+//     console.log("false");
+// }
+
+
+//--------------------------------------------------
+
+//If Else Statements
+
+let x = 10;
+let y = 20;
+
+if (x > y) {
+    console.log("x is greater than y");
+}else if (x < y) {
+    console.log("x is less than y");
 }else {
-    console.log("false");
+    console.log("x is equal to y");
 }
