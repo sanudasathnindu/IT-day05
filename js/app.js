@@ -40,7 +40,28 @@
 
 // > | < | >= | <= | == | === | >== | <==
 
-let x = 10;
-let y = "10";
+// let x = 10;
+// let y = "10";
 
-    console.log(x === y); // false
+//     console.log(x === y); // false
+
+
+
+//--------------------------------------------------
+
+// Logical Operators
+
+// && | || | !
+
+if (true && true) {
+    console.log("true");
+}else {
+    console.log("false");
+}
+
+
+if(!false && !false) {
+    console.log("true");
+}else {
+    console.log("false");
+}
