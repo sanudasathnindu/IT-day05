@@ -7,4 +7,4 @@
  console.log(name);
  console.log(age);
 
- alert("Hello iCET");
+ alert("Hello ");
