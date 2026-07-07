@@ -71,13 +71,45 @@
 
 //If Else Statements
 
-let x = 10;
-let y = 20;
+// let x = 10;
+// let y = 20;
 
-if (x > y) {
-    console.log("x is greater than y");
-}else if (x < y) {
-    console.log("x is less than y");
-}else {
-    console.log("x is equal to y");
+// if (x > y) {
+//     console.log("x is greater than y");
+// }else if (x < y) {
+//     console.log("x is less than y");
+// }else {
+//     console.log("x is equal to y");
+// }
+
+//--------------------------------------------------
+
+//Switch Statements
+
+let day = 2;
+
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid day");
 }
