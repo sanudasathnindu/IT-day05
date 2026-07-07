@@ -138,9 +138,21 @@
 
 //do while loop
 
-let i = 0;
+// let i = 0;
 
-do {
-    console.log(i);
-    i++;
-} while (i < 10);
+// do {
+//     console.log(i);
+//     i++;
+// } while (i < 10);
+
+//--------------------------------------------------
+
+//Functions
+
+
+function add(x, y) {
+    return x + y;   
+}
+
+let result = add(10, 20);
+console.log(result);
