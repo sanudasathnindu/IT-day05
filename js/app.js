@@ -1,10 +1,25 @@
- let name = "Saman"; 
+//  let name = "Saman"; 
 
- let age = 18;
+//  let age = 18;
 
- name = "Ranil";
+//  name = "Ranil";
  
- console.log(name);
- console.log(age);
+//  console.log(name);
+//  console.log(age);
 
- alert("Hello ");
+//  alert("Hello ");
+
+
+let name = "Saman";
+let age = 18;
+let isAfterAl = false;
+let customer = [];
+let customer1 = {};
+let salary = 7500.50;
+
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isAfterAl);
+console.log(typeof customer);
+console.log(typeof customer1);
+console.log(typeof salary);
